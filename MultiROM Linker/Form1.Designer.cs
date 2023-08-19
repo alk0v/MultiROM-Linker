@@ -200,6 +200,7 @@
             this.bt_resetIndex.TabIndex = 12;
             this.bt_resetIndex.Text = "Reset Index";
             this.bt_resetIndex.UseVisualStyleBackColor = true;
+            this.bt_resetIndex.Click += new System.EventHandler(this.bt_resetIndex_Click);
             // 
             // MultiROM
             // 

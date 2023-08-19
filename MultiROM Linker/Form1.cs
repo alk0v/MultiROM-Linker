@@ -189,5 +189,15 @@ namespace MultiROM_Linker
                 }
             }
         }
+
+        private void bt_resetIndex_Click(object sender, EventArgs e)
+        {
+            romindex = 0;
+            foreach (DataGridViewRow row in dgv_files.Rows)
+            {
+                row.Cells["id"].Value = romindex;
+                romindex++;
+            }
+        }
     }
 }
