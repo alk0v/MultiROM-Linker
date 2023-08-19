@@ -23,6 +23,9 @@ namespace MultiROM_Linker
 
             var banksize = new Dictionary<int, string>()
             {
+                {1024,"1k"},
+                {2048,"2k"},
+                {4096,"4k"},
                 {8192,"8k"},
                 {16384,"16k"},
                 {32768,"32k"},
@@ -34,6 +37,12 @@ namespace MultiROM_Linker
 
             var romsize = new Dictionary<int, string>()
             {
+                {2048,"2716 - 2k"},
+                {4096,"2732 - 4k"},
+                {8192,"2764 - 8k"},
+                {16384,"27128 - 16k"},
+                {32768,"27256 - 32k"},
+                {65536,"27512 - 64k"},
                 {131072,"27c010 - 128k"},
                 {262144,"27c020 - 256k"},
                 {524288,"27c040 - 512k"},

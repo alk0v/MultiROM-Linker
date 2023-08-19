@@ -45,6 +45,7 @@
             this.bt_make = new System.Windows.Forms.Button();
             this.tb_debug = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.bt_resetIndex = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_files)).BeginInit();
             this.SuspendLayout();
             // 
@@ -135,7 +136,7 @@
             // 
             // bt_addROM
             // 
-            this.bt_addROM.Location = new System.Drawing.Point(13, 155);
+            this.bt_addROM.Location = new System.Drawing.Point(13, 146);
             this.bt_addROM.Name = "bt_addROM";
             this.bt_addROM.Size = new System.Drawing.Size(121, 29);
             this.bt_addROM.TabIndex = 5;
@@ -145,7 +146,7 @@
             // 
             // bt_uplist
             // 
-            this.bt_uplist.Location = new System.Drawing.Point(12, 190);
+            this.bt_uplist.Location = new System.Drawing.Point(12, 181);
             this.bt_uplist.Name = "bt_uplist";
             this.bt_uplist.Size = new System.Drawing.Size(121, 29);
             this.bt_uplist.TabIndex = 6;
@@ -155,7 +156,7 @@
             // 
             // bt_downlist
             // 
-            this.bt_downlist.Location = new System.Drawing.Point(13, 225);
+            this.bt_downlist.Location = new System.Drawing.Point(13, 216);
             this.bt_downlist.Name = "bt_downlist";
             this.bt_downlist.Size = new System.Drawing.Size(121, 29);
             this.bt_downlist.TabIndex = 7;
@@ -185,17 +186,27 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 270);
+            this.label3.Location = new System.Drawing.Point(13, 261);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 13);
             this.label3.TabIndex = 11;
             this.label3.Text = "Press DEL for delete";
+            // 
+            // bt_resetIndex
+            // 
+            this.bt_resetIndex.Location = new System.Drawing.Point(12, 290);
+            this.bt_resetIndex.Name = "bt_resetIndex";
+            this.bt_resetIndex.Size = new System.Drawing.Size(121, 29);
+            this.bt_resetIndex.TabIndex = 12;
+            this.bt_resetIndex.Text = "Reset Index";
+            this.bt_resetIndex.UseVisualStyleBackColor = true;
             // 
             // MultiROM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(832, 552);
+            this.Controls.Add(this.bt_resetIndex);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tb_debug);
             this.Controls.Add(this.bt_make);
@@ -210,7 +221,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MultiROM";
-            this.Text = "MultiROM Linker v.1.0 by SnC Museum";
+            this.Text = "MultiROM Linker v.1.1 by SnC Museum";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_files)).EndInit();
             this.ResumeLayout(false);
@@ -235,6 +246,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn filesize;
         private System.Windows.Forms.DataGridViewTextBoxColumn fullname;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button bt_resetIndex;
     }
 }
 
