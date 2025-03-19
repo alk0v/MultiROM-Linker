@@ -14,7 +14,7 @@ namespace MultiROM_Linker
 {
     public partial class MultiROM : Form
     {
-        private int romindex = 0;
+        private int romindex = 1;
         private bool oversize = false;
 
         public MultiROM()

@@ -222,7 +222,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MultiROM";
-            this.Text = "MultiROM Linker v.1.1 by SnC Museum";
+            this.Text = "MultiROM Linker v.1.2 by SnC Museum";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_files)).EndInit();
             this.ResumeLayout(false);
